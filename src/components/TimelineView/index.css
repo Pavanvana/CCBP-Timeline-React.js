@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.time-line-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.heading {
+  text-align: center;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2.7;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 22px;
+  }
+}
+.span {
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 26px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .span {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.course-timeline-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .course-timeline-container {
+    flex-direction: row;
+  }
+}
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 26px;
+  }
+}
+.duration-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.duration {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 4px;
+}
+@media (min-width: 768px) {
+  .duration {
+    font-size: 16px;
+  }
+}
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 0px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+}
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.tag-item {
+  list-style: none;
+}
+.tag-name {
+  color: #25262c;
+  background-color: #e2e8f0;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 4px;
+  line-height: 1.6;
+  padding: 4px 8px;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+@media (min-width: 768px) {
+  .tag-name {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
